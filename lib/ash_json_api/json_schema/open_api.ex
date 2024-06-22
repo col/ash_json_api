@@ -180,7 +180,7 @@ if Code.ensure_loaded?(OpenApiSpex) do
           #   "$ref" => "#/definitions/meta"
           # }
         },
-        additionalProperties: false
+        additionalProperties: true
       }
     end
 
