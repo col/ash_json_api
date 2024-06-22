@@ -132,7 +132,7 @@ defmodule AshJsonApi.JsonSchema do
         #   "$ref" => "#/definitions/meta"
         # }
       },
-      "additionalProperties" => false
+      "additionalProperties" => true
     }
   end
 
